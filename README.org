@@ -1,0 +1,11 @@
+#+title: Readme
+
+* KyLang / klang - a playground for learning programming language concepts
+KyLang is a LISP-based interpreted language that I will use to force myself to learn various different programming language concepts and implementation details.
+It is directly inspired by Scheme, an elegant, powerful language that I fell in love with in 2023, as well as Cody, the failed compiled language I attempted to write in 24 hours.
+
+I intend to use my experiences from implementing a Scheme transpiler in CP3108 and CP3209, implementing a language (go) in CS4215 and my experiences with parallel programming in CS3211 to create a decently usable language - and perhaps prove some properties of the interpreter/compiler using a proof assistant - essentially, this project is a love letter to my own education in Computer Science and Programming Languages.
+
+Learning from Java, KyLang will compile a .ky file into an IR that is directly executed by a virtual machine. Hopefully, in time, I can actually separate the interpreter into a compiler and a VM (perhaps by making .kyr files that are run by a KVM?)
+
+To flex, this project will be coded in Rust.
