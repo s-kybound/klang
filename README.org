@@ -7,4 +7,4 @@ Unfortunately, the goal here is not to make a similar elegant language, but to s
 
 I intend to use my experiences from implementing R7RS Scheme with transpiler in CP3108 and CP3209, implementing a language (golang) in CS4215 and my experiences with parallel programming in CS3211 to create a decently usable language - perhaps prove some properties of the interpreter/compiler using a proof assistant? And of course, everything learned up to now, CS1101S, the trinity, the like - essentially, this project serves as a love letter to my own education in Computer Science.
 
-Learning from Java, KyLang1 will compile a .ky1 file into an IR that is directly executed by a virtual machine. Hopefully, in time, I can actually separate the interpreter into a compiler and a VM (perhaps by making .kyr1 files that are run by a KVM?)
+Learning from Java, KyLang1 will compile a .ky1 file into an IR that is directly executed by a virtual machine. Hopefully, in time, I can actually separate the interpreter into a compiler and a VM (perhaps by making .kyr1el files that are run by a KVM?)
