@@ -1,11 +1,10 @@
 #+title: Readme
 
-* KyLang / klang - a playground for learning programming language concepts
-KyLang is a LISP-based interpreted language that I will use to force myself to learn various different programming language concepts and implementation details.
-It is directly inspired by Scheme, an elegant, powerful language that I fell in love with in 2023, as well as Cody, the failed compiled language I attempted to write in 24 hours.
+* KyLang1 / klang1 - a playground for learning programming language concepts
+KyLang1 / klang1 is a LISP-based interpreted language written in Rust that I will use to force myself to learn various different programming language concepts and implementation details.
+It is directly inspired by Scheme, an elegant, powerful language that I fell in love with in 2023, with other influences like Rust.
+Unfortunately, the goal here is not to make a similar elegant language, but to stuff as much functionality in this language to make possibly the ugliest language in the world - an extensible prototype platform I can use to learn new methods to implement new things in other, more serious projects.
 
-I intend to use my experiences from implementing a Scheme transpiler in CP3108 and CP3209, implementing a language (go) in CS4215 and my experiences with parallel programming in CS3211 to create a decently usable language - and perhaps prove some properties of the interpreter/compiler using a proof assistant - essentially, this project is a love letter to my own education in Computer Science and Programming Languages.
+I intend to use my experiences from implementing R7RS Scheme with transpiler in CP3108 and CP3209, implementing a language (golang) in CS4215 and my experiences with parallel programming in CS3211 to create a decently usable language - perhaps prove some properties of the interpreter/compiler using a proof assistant? And of course, everything learned up to now, CS1101S, the trinity, the like - essentially, this project serves as a love letter to my own education in Computer Science.
 
-Learning from Java, KyLang will compile a .ky file into an IR that is directly executed by a virtual machine. Hopefully, in time, I can actually separate the interpreter into a compiler and a VM (perhaps by making .kyr files that are run by a KVM?)
-
-To flex, this project will be coded in Rust.
+Learning from Java, KyLang1 will compile a .ky1 file into an IR that is directly executed by a virtual machine. Hopefully, in time, I can actually separate the interpreter into a compiler and a VM (perhaps by making .kyr1 files that are run by a KVM?)
